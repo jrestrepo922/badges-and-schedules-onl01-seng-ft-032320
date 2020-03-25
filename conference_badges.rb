@@ -3,6 +3,9 @@ def badge_maker(name)
   "Hello, my name is #{name}." 
 end 
 
+array = ["pedro", "juan", "marco"]
+
+
 def batch_badge_creator(array)
   new_array = []
   array.each do |name|
@@ -27,3 +30,5 @@ def printer(attendees)
     puts assign_rooms(attende)
   end 
 end 
+
+printer
